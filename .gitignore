@@ -45,6 +45,13 @@ $RECYCLE.BIN/
 .env.*
 !.env.example
 
+# .NET application settings / secrets
+**/appsettings.json
+**/appsettings.Development.json
+
+# Keep example configuration in Git
+!**/appsettings.example.json
+
 # Temporary files
 *.tmp
 *.temp
