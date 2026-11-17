@@ -1,0 +1,50 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio (Windows)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Logs
+*.log
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.temp
